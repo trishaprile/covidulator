@@ -1,0 +1,10 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-color: #3DB9B1;
+}
+
+h1 {
+  color: #FFFFFF;
+  padding-top: 5rem;
+}
