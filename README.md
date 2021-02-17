@@ -1,0 +1,2 @@
+# covidulator
+Covid Footprint Calculator
