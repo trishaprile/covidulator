@@ -1,0 +1,54 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  background-color: #3DB9B1;
+  color: #FFFFFF;
+  position: absolute;
+  z-index: -1;
+}
+
+.pretitle {
+  margin-top: 10rem;
+
+}
+
+.title {
+  margin-top: 2rem;
+
+}
+
+.cases {
+  margin-top: 2rem;
+
+}
+
+.subtitle {
+  margin-top: 2rem;
+
+}
+
+.take-test-btn {
+    margin-top: 2rem;
+
+} 
+
+// Background Animation
+
+.particle {
+	position: absolute;
+  z-index: -1;
+}
+
+@for $i from 1 through 30 {
+	@keyframes particle-animation-#{$i} {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+		}
+	}
+	
+	.particle:nth-child(#{$i}){
+		animation: particle-animation-#{$i} 20s infinite;
+		animation-delay: -$i * .2s;
+		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+	}
+}
