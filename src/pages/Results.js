@@ -29,10 +29,10 @@ function Results() {
       <div className="resources">
         <h4 className="subtitle">RESOURCES</h4>
         <div className="links">
-          <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html">CDC: Suggestions to Prvent Getting Sick</a><br/>
-          <a href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/effective-masks.html">CDC: Improve How Your Mask Protects You</a><br/>
-          <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html">CDC: Information about the Covid-19 Vaccine</a><br/>
-          <a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html">CDC: Testing and International Air Travel</a><br/>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html" target="_blank">CDC: Suggestions to Prvent Getting Sick</a><br/>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/your-health/effective-masks.html" target="_blank">CDC: Improve How Your Mask Protects You</a><br/>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/vaccines/index.html" target="_blank">CDC: Information about the Covid-19 Vaccine</a><br/>
+          <a href="https://www.cdc.gov/coronavirus/2019-ncov/travelers/testing-international-air-travelers.html" target="_blank">CDC: Testing and International Air Travel</a><br/>
         </div>
       </div>
 
