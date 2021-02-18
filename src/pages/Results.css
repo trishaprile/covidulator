@@ -1,5 +1,122 @@
 .results {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   background-color: #3DB9B1;
+  color: #FFFFFF;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+.results-title {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.score-header {
+  font-weight: normal;
+  font-size: 25px;
+  letter-spacing: 0.05em;
+}
+
+.score {
+  font-weight: 900;
+  font-size: 96px;
+  text-align: center;
+  color: #FF7D45;
+}
+
+.percentage {
+  font-weight: bold;
+  font-size: 56px;
+  text-align: center;
+}
+
+.description {
+  font-weight: normal;
+  font-size: 28px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.sug-descrip {
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.quarters {
+  font-size: 26px;
+  letter-spacing: 0.05em;
+}
+
+.results .subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+.emojis {
+  width: 20%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.column3 {
+  width:33.3%;
+}
+
+.column4 {
+  width:25%;
+}
+
+.emoji-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #3DB9B1 !important;
+  border-radius: 100px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  letter-spacing: 0.05em !important;
+  color: #FFFFFF !important;
+  padding: 0.5rem 2rem !important;
+  border-width: 4px !important;
+  border-color: #FFFFFF !important;
+}
+
+.emoji-btn:hover {
+  background: #6FBACB !important;
+}
+
+a {
+  color: white !important;
+  font-size: 24px;
+}
+
+a:hover {
+  color: white;
+}
+
+.results .take-test-btn {
+  margin-top: 5rem;
+  background: #E8F7F0 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+  letter-spacing: 0.05em !important;
+  padding: 1rem 2rem !important;
+  border: none !important;
+  color: #3DB9B1 !important;
+} 
+
+.category-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  padding-bottom:1rem;
+  padding-top:1rem;
 }
