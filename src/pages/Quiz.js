@@ -1,11 +1,11 @@
 import React from 'react';
 import './Quiz.css';
 import { questions } from '../data.js';
-import { Redirect } from 'react-router-dom';
 import { ArrowRightCircleFill, ArrowLeftCircleFill } from 'react-bootstrap-icons';
 import RangeSlider from 'react-bootstrap-range-slider';
 
 function Quiz() {
+  const [score, setScore] = React.useState(0);
   const [questionIndex, setQuestionIndex] = React.useState(0);
   const [value, setValue] = React.useState(2);
 
@@ -33,7 +33,7 @@ function Quiz() {
       <div style={{ height: 10, zIndex: 1, backgroundColor: "#FF9E74", width: `${((questionIndex + 1) / questions.length) * 100}vw`, position: "fixed" }}></div>
       <div style={{ height: 10, zIndex: 0, backgroundColor: "#E8F7F0", width: "100vw", position: "fixed" }}></div>
       <div className="quiz">
-        <a className={questionIndex === 0 ? 'disabled-arrow' : 'arrow'} onClick={questionIndex === 0 ? null : handlePrevQuestion}><ArrowLeftCircleFill className="back" size={50} /></a>
+        <span className={questionIndex === 0 ? 'disabled-arrow' : 'arrow'} onClick={questionIndex === 0 ? null : handlePrevQuestion}><ArrowLeftCircleFill className="back" size={50} /></span>
         <div className="question-container">
           <div className="question">
             <small>{questions[questionIndex].category}</small>
@@ -48,10 +48,11 @@ function Quiz() {
               </span>
               <span style={{ width: '25%' }}>{questions[questionIndex].answers[questions[questionIndex].answers.length - 1].answer}</span>
             </div>
-            <span>{questions[questionIndex].answers[value].answer}</span>
+            <span className="answer">{questions[questionIndex].answers[value].answer}</span><br/>
+            <span className="description">{questions[questionIndex].answers[value].description}</span>
           </div>
         </div>
-        <a className='arrow' onClick={handleNextQuestion}><ArrowRightCircleFill className="next" size={50} /></a>
+        <span className='arrow' onClick={handleNextQuestion}><ArrowRightCircleFill className="next" size={50} /></span>
       </div>
     </div>
   )
