@@ -20,7 +20,7 @@ function Quiz() {
   }, [value])
 
   React.useEffect(() => {
-    if(questionIndex != questions.length) setValue(score[questionIndex]);
+    if(questionIndex !== questions.length) setValue(score[questionIndex]);
   }, [questionIndex])
 
   const handleAnswerValueChange = (e) => {
