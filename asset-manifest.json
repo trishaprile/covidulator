@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/covidulator/static/css/main.522b9efc.chunk.css",
-    "main.js": "/covidulator/static/js/main.b729e28a.chunk.js",
-    "main.js.map": "/covidulator/static/js/main.b729e28a.chunk.js.map",
+    "main.css": "/covidulator/static/css/main.62e582d3.chunk.css",
+    "main.js": "/covidulator/static/js/main.dee10664.chunk.js",
+    "main.js.map": "/covidulator/static/js/main.dee10664.chunk.js.map",
     "runtime-main.js": "/covidulator/static/js/runtime-main.95154351.js",
     "runtime-main.js.map": "/covidulator/static/js/runtime-main.95154351.js.map",
     "static/css/2.658248ec.chunk.css": "/covidulator/static/css/2.658248ec.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.ed4ab22e.chunk.js.map": "/covidulator/static/js/2.ed4ab22e.chunk.js.map",
     "index.html": "/covidulator/index.html",
     "static/css/2.658248ec.chunk.css.map": "/covidulator/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.522b9efc.chunk.css.map": "/covidulator/static/css/main.522b9efc.chunk.css.map",
+    "static/css/main.62e582d3.chunk.css.map": "/covidulator/static/css/main.62e582d3.chunk.css.map",
     "static/js/2.ed4ab22e.chunk.js.LICENSE.txt": "/covidulator/static/js/2.ed4ab22e.chunk.js.LICENSE.txt",
     "static/media/maskman.549d10ac.png": "/covidulator/static/media/maskman.549d10ac.png",
     "static/media/maskwoman.1125b6bf.png": "/covidulator/static/media/maskwoman.1125b6bf.png",
@@ -20,7 +20,7 @@
     "static/js/runtime-main.95154351.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.ed4ab22e.chunk.js",
-    "static/css/main.522b9efc.chunk.css",
-    "static/js/main.b729e28a.chunk.js"
+    "static/css/main.62e582d3.chunk.css",
+    "static/js/main.dee10664.chunk.js"
   ]
 }
