@@ -5,8 +5,12 @@ import CovidParticle from '../assets/coronaangry.png';
 import { Button } from 'react-bootstrap';
 
 function Home() {
-  const [scase, setCase] = React.useState(0);
-  const [country, setCountry] = React.useState('X country');
+  const [scase, setCase] = React.useState(27895979);
+  const [country, setCountry] = React.useState('the US');
+
+  React.useEffect(() => {
+    setTimeout(() => {  getUSCases(); }, 60000);
+  })
 
   async function getUSCases(){
     const usapi_url = 'https://covid-api.mmediagroup.fr/v1/cases?country=US';
@@ -89,13 +93,13 @@ function Home() {
     console.log(data);
   }
   
-  /*const sleep = milliseconds => { 
+  const cough = milliseconds => { 
     return new Promise(resolve => setTimeout(resolve, milliseconds)); 
   }; 
 
-  sleep(1000).then(() => { 
+  cough(1000).then(() => { 
     setCase(scase + 1);
-  }); */
+  });
 
 	return (
     <div className="home">
@@ -115,7 +119,7 @@ function Home() {
         <h1 className="title">COVID-19 Footprint?</h1>
         <h3 className="cases">There have been {scase} cases in {country}</h3>
         <p className="subtitle">Find out if you're doing your part.</p>
-        <Button href="/quiz" className="take-test-btn">Take the Test</Button>
+        <Button href="/#/quiz" className="take-test-btn">Take the Test</Button>
       </div>
     </div> 
   )

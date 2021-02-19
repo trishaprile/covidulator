@@ -33,9 +33,12 @@
 
 .description {
   font-weight: normal;
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
   letter-spacing: 0.05em;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5rem;
 }
 
 .sug-descrip {
@@ -46,6 +49,9 @@
 .quarters {
   font-size: 26px;
   letter-spacing: 0.05em;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 
 .results .subtitle {
@@ -119,4 +125,8 @@ a:hover {
   letter-spacing: 0.05em;
   padding-bottom:1rem;
   padding-top:1rem;
+}
+
+.quarter {
+  width: 150px;
 }

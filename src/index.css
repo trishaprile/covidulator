@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+::selection {
+  background: #ffffff00
+}
+
+.range-slider__tooltip__label {
+  visibility: hidden !important;
+}
