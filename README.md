@@ -8,8 +8,9 @@ way for people to evaluate how well they are performing in face of the pandemic.
 posting on social media about going out to large gatherings while in quarantine, so this provides a way to reassure them that their
 performance is effective and helps out our community greatly. 
 
-Created by Nicole Pham, Nathan Nguyen, Trisha Le, and Marawin Chheang \
+Created by Nicole Pham, Nathan Nguyen, Trisha Le, and Marawin Chheang
 Made for [ICSSC Jam for Change 2021](https://www.icssc-jamforchange.com/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
