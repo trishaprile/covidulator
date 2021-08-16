@@ -1,5 +1,15 @@
-# Getting Started with Create React App
+# Covidulator
+### Covid Footprint Calculator
 
+Covidulator is a web app that calculates the impact of one's actions in regards to preventing the spread of COVID-19.
+
+Our project took inspiration from the [Carbon Footprint Calculator](https://www.footprintcalculator.org/). We wanted to provide a
+way for people to evaluate how well they are performing in face of the pandemic. Sometimes it can be difficult seeing other people
+posting on social media about going out to large gatherings while in quarantine, so this provides a way to reassure them that their
+performance is effective and helps out our community greatly. 
+
+Created by Nicole Pham, Nathan Nguyen, Trisha Le, and Marawin Chheang \
+Made for [ICSSC Jam for Change 2021](https://www.icssc-jamforchange.com/)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
